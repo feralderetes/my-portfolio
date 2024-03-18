@@ -70,10 +70,7 @@ p {
   border-radius: 4px;
   font-size: 14px;
   padding: 10px;
-}
-
-.project-section {
-  margin: 20px;
+  color: white;
 }
 
 @media (max-width: 990px) {
@@ -88,13 +85,15 @@ p {
   h3 {
     font-size: 32px;
     margin: 0 10px;
-    text-align: center;
   }
   .hero h2 {
     font-size: 22px;
   }
+}
 
-  .project-section {
+@media (max-width: 575px) {
+  h3,
+  .col-sm-6 {
     text-align: center;
   }
 }
