@@ -1,9 +1,56 @@
-h1 {
-  font-size: 56px;
-  font-family: "Averia Serif Libre", serif;
+:root {
+  --primary-color: #42b883;
+  --secondary-color: #35495e;
+  --tertiary-color: #ff7e67;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --default-font-family: "Comfortaa", sans-serif;
+  --headline-font-family: "Averia Serif Libre", serif;
 }
 
-p {
-  font-size: 28px;
-  font-family: "Comfortaa", sans-serif;
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--headline-font-family);
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 3;
+}
+
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.primary-links {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+
+.btn-branding a {
+  text-decoration: none;
+  color: white;
 }
