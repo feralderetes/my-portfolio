@@ -98,7 +98,8 @@ p {
   background: var(--tertiary-color);
   border-radius: 4px;
   font-size: 14px;
-  padding: 10px;
+  padding: 10px 20px;
+  margin: 10px;
   color: white;
 }
 
@@ -135,6 +136,44 @@ nav li.active a {
 
 nav li.active a {
   font-weight: bold;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 20px 100px;
+  color: white;
+  border-radius: 4px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
 }
 
 @media (max-width: 990px) {
