@@ -60,27 +60,23 @@ p {
   font-size: 24px;
 }
 
-.content-container {
-  padding: 40px 20px;
-}
-
-.content h2 {
+.content-container h2 {
   font-size: 38px;
 }
 
-.content h3 {
+.content-container h3 {
   font-size: 30px;
 }
 
-.content h4 {
+.content-container h4 {
   font-size: 24px;
 }
 
-.content p {
+.content-container p {
   font-size: 14px;
 }
 
-.content {
+.content-container {
   margin: 40px 0;
 }
 
