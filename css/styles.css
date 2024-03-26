@@ -204,6 +204,13 @@ footer p a {
   text-decoration: none;
 }
 
+.about-description {
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin: 30px;
+  text-align: justify;
+}
+
 @media (max-width: 990px) {
   h1 {
     font-size: 52px;
