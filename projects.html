@@ -35,10 +35,10 @@
     <title>My Portfolio - Projects | Fer Alderetes</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
             src="/images/logo.png"
             alt="Fernanda Alderetes logo"
             class="logo d-none d-md-block" />
@@ -47,60 +47,177 @@
             alt="Fernanda Alderetes small logo"
             class="logo d-block d-md-none"
         /></a>
-        <ul>
-          <li><a href="/" title="Homepage">Home</a></li>
-          <li class="active">
-            <a href="/projects.html" title="Fer's projects">Projects</a>
-          </li>
-          <li><a href="/about.html" title="About Fer">About me</a></li>
-          <li><a href="/contact.html" title="Contact Fer">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/projects.html"
+                title="Fer's projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Fer"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact Fer"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <h1 class="px-5">Check out my portfolio of projects</h1>
     </div>
     <div class="container">
-      <div class="content-container">
+      <div class="content-container project-description">
         <div class="row">
           <div class="col-md-6 p-5">
             <h3 class="text-center">Responsive Portfolio App</h3>
-            <p class="text-center">Built in HTML, CSS, Bootstrap and Flexbox</p>
+            <p class="text-center">
+              Built in HTML, CSS, Bootstrap and Flexbox. This is a fully
+              responsive website, and it was the final project for the
+              <strong>SheCodes Responsive</strong> workshop.
+            </p>
             <img
               src="/images/portfolioapp.png"
               alt="Portfolio app preview"
               class="img-fluid rounded img-thumbnail shadow-lg"
             />
+            <div class="d-flex justify-content-center mt-3">
+              <div class="btn btn-branding">
+                <a
+                  href="https://feralderetes-portfolio.netlify.app/"
+                  target="_blank"
+                  title="Go to project"
+                  >Open project
+                  <i class="fa-solid fa-up-right-from-square px-1"></i
+                ></a>
+              </div>
+              <div class="btn btn-branding-secondary">
+                <a
+                  href="https://github.com/feralderetes/my-portfolio/"
+                  target="_blank"
+                  title="See source code on Github"
+                  >Source code <i class="fa-brands fa-github px-1"></i
+                ></a>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 p-5">
             <h3 class="text-center">Weather App</h3>
             <p class="text-center">
-              Built in HTML, CSS, Vanilla JavaScript and SheCodes weather API
+              Built in HTML, CSS, Vanilla JavaScript and SheCodes weather API.
+              It was the final project for the
+              <strong>SheCodes Plus</strong> workshop.
             </p>
             <img
               src="/images/weatherapp.png"
               alt="Weather app preview"
               class="img-fluid rounded img-thumbnail shadow-lg"
             />
+            <div class="d-flex justify-content-center mt-3">
+              <div class="btn btn-branding">
+                <a
+                  href="https://crazy-weather-app.netlify.app/"
+                  target="_blank"
+                  title="Go to project"
+                  >Open project
+                  <i class="fa-solid fa-up-right-from-square px-1"></i
+                ></a>
+              </div>
+              <div class="btn btn-branding-secondary">
+                <a
+                  href="https://github.com/feralderetes/crazy-weather-app/"
+                  target="_blank"
+                  title="See source code on Github"
+                  >Source code <i class="fa-brands fa-github px-1"></i
+                ></a>
+              </div>
+            </div>
           </div>
           <div class="row">
             <div class="col-md-6 p-5">
               <h3 class="text-center">Language learning website</h3>
-              <p class="text-center">Built in HTML, CSS, and JavaScript</p>
+              <p class="text-center">
+                Built in HTML, CSS, and JavaScript. It was the final project for
+                the <strong>SheCodes Bascis Add-on</strong> workshop.
+              </p>
               <img
                 src="/images/languageapp.png"
                 alt="Language web preview"
                 class="img-fluid rounded img-thumbnail shadow-lg"
               />
+              <div class="d-flex justify-content-center mt-3">
+                <div class="btn btn-branding">
+                  <a
+                    href="https://beyondborders-languagelearning.netlify.app/"
+                    target="_blank"
+                    title="Go to project"
+                    >Open project
+                    <i class="fa-solid fa-up-right-from-square px-1"></i
+                  ></a>
+                </div>
+                <div class="btn btn-branding-secondary">
+                  <a
+                    href="https://github.com/feralderetes/language-learning-app/"
+                    target="_blank"
+                    title="See source code on Github"
+                    >Source code <i class="fa-brands fa-github px-1"></i
+                  ></a>
+                </div>
+              </div>
             </div>
             <div class="col-md-6 p-5">
               <h3 class="text-center">Cycling classes website</h3>
-              <p class="text-center">Built in HTML, CSS, and JavaScript</p>
+              <p class="text-center">
+                Built in HTML, CSS, and JavaScript. It was the final project for
+                the <strong>SheCodes Basics</strong> workshop.
+              </p>
               <img
                 src="/images/cyclingapp.png"
                 alt="Cycling lessons web preview"
                 class="img-fluid rounded img-thumbnail shadow-lg"
               />
+              <div class="d-flex justify-content-center mt-3">
+                <div class="btn btn-branding">
+                  <a
+                    href="https://freecyclinglessons.netlify.app/"
+                    target="_blank"
+                    title="Go to project"
+                    >Open project
+                    <i class="fa-solid fa-up-right-from-square px-1"></i
+                  ></a>
+                </div>
+                <div class="btn btn-branding-secondary">
+                  <a
+                    href="https://github.com/feralderetes/cycling-lessons-app/"
+                    target="_blank"
+                    title="See source code on Github"
+                    >Source code <i class="fa-brands fa-github px-1"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
