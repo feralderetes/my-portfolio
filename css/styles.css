@@ -179,7 +179,7 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 0 10px;
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
   padding: 10px 15px;
