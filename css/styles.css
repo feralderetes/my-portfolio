@@ -196,10 +196,6 @@ footer .simple-footer {
     padding: 8px 15px;
   }
 
-  .project-links {
-    padding-left: 30px;
-  }
-
   .project-links .btn-branding,
   .project-links .btn-branding-secondary {
     padding: 4px 8px;
@@ -250,17 +246,6 @@ footer .simple-footer {
 
   .hero-content {
     margin: 0 auto;
-  }
-
-  .primary-links,
-  .btn-branding {
-    margin-left: 30px;
-  }
-
-  .btn-branding,
-  .btn-branding-secondary {
-    padding: 8px 15px;
-    font-size: 12px;
   }
 
   .project-description p {
