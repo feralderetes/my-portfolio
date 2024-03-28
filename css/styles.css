@@ -158,7 +158,7 @@ footer .simple-footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  bottom: 20px;
+  bottom: 0;
 }
 
 @media (max-width: 990px) {
@@ -221,6 +221,11 @@ footer .simple-footer {
     padding: 30px;
   }
 
+  .col-md-4 p,
+  .col-md-8 p {
+    text-align: center;
+  }
+
   h1 {
     font-size: 38px;
   }
@@ -266,11 +271,7 @@ footer .simple-footer {
   }
 
   footer .simple-footer {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    bottom: 20px;
+    position: sticky;
   }
 }
 
