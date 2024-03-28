@@ -71,16 +71,17 @@ nav li {
 
 .hero .about-image {
   border-radius: 50% 50% 50% 2%;
+  margin: 0 auto;
 }
 
 .hero-content {
   margin-left: 60px;
+  margin-right: 30px;
 }
 
 .btn-branding,
 .btn-branding-secondary {
   padding: 10px 20px;
-  margin-right: 30px;
 }
 
 .btn-branding a,
@@ -109,7 +110,7 @@ nav li {
 }
 
 .content-container {
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 .project-description p {
@@ -162,23 +163,63 @@ footer .simple-footer {
 
 @media (max-width: 990px) {
   h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 
   p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .hero-content {
+    padding: 30px;
+  }
+
+  .hero .about-image {
+    max-height: 300px;
+  }
+
+  .btn-branding,
+  .btn-branding-secondary {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+
+  .project-links {
+    padding-left: 30px;
+  }
+
+  .project-links .btn-branding,
+  .project-links .btn-branding-secondary {
+    padding: 4px 8px;
+  }
+
+  .project-description p {
+    font-size: 10px;
+  }
+
+  footer .social-links a {
+    padding: 8px 13px;
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 12px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-md-6 {
     text-align: center;
     padding: 30px;
@@ -199,16 +240,16 @@ footer .simple-footer {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hero {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
 
   .hero-content {
-    margin-left: 0;
+    margin: 0 auto;
   }
 
   .primary-links,
@@ -220,10 +261,6 @@ footer .simple-footer {
   .btn-branding-secondary {
     padding: 8px 15px;
     font-size: 12px;
-  }
-
-  .content-container {
-    margin: 40px 0;
   }
 
   .project-description p {
@@ -240,7 +277,7 @@ footer .simple-footer {
   }
 
   footer p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   footer .simple-footer {
@@ -249,5 +286,11 @@ footer .simple-footer {
     display: flex;
     justify-content: center;
     bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-image {
+    border-radius: 50%;
   }
 }
