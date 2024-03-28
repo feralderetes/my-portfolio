@@ -162,15 +162,15 @@ footer .simple-footer {
 
 @media (max-width: 990px) {
   h1 {
-    font-size: 38px;
+    font-size: 48px;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 22px;
   }
 
   p {
@@ -181,9 +181,73 @@ footer .simple-footer {
 @media (max-width: 768px) {
   .col-md-6 {
     text-align: center;
+    padding: 30px;
   }
 
-  .logo {
-    max-height: 40px;
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3,
+  h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-content {
+    margin-left: 0;
+  }
+
+  .primary-links,
+  .btn-branding {
+    margin-left: 30px;
+  }
+
+  .btn-branding,
+  .btn-branding-secondary {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+
+  .content-container {
+    margin: 40px 0;
+  }
+
+  .project-description p {
+    font-size: 14px;
+  }
+
+  footer .contact-box {
+    padding: 20px 0;
+  }
+
+  footer .social-links a {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  footer .simple-footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
   }
 }
