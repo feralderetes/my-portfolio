@@ -82,6 +82,7 @@ nav li {
 .btn-branding,
 .btn-branding-secondary {
   padding: 10px 20px;
+  color: white;
 }
 
 .btn-branding a,
@@ -92,7 +93,6 @@ nav li {
 
 .btn-branding {
   background: var(--branding-color);
-  color: white;
 }
 
 .btn-branding-secondary {
@@ -107,6 +107,7 @@ nav li {
 
 .btn-branding-secondary:hover {
   background: var(--secondary-color);
+  color: white;
 }
 
 .content-container {
@@ -143,12 +144,11 @@ nav li {
   text-align: center;
   background-color: var(--primary-color);
   transition: all 150ms ease-in-out;
-  cursor: pointer;
   margin: 10px;
 }
 
 .photo:hover {
-  transform: scale(125%);
+  transform: scale(110%);
 }
 
 .photo img {
@@ -230,7 +230,6 @@ footer .simple-footer {
 
   .btn-branding,
   .btn-branding-secondary {
-    font-size: 12px;
     padding: 8px 15px;
   }
 
@@ -246,6 +245,14 @@ footer .simple-footer {
   .cv h3,
   .cv h4 {
     text-align: start;
+  }
+
+  .cv h2 {
+    font-size: 32px;
+  }
+
+  .cv h3 {
+    font-size: 22px;
   }
 
   .cv h5 {
@@ -325,10 +332,9 @@ footer .simple-footer {
   .cv-content {
     justify-content: center;
   }
-
   .cv-work p {
     font-size: 14px;
-    text-align: start;
+    text-align: center;
   }
 
   footer .contact-box {
