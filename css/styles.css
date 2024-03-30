@@ -117,6 +117,44 @@ nav li {
   font-size: 14px;
 }
 
+.cv h2 {
+  color: var(--branding-color);
+}
+
+.cv-skills p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.cv-skills i {
+  font-size: 28px;
+}
+
+.cv img {
+  max-width: 300px;
+}
+
+.photo {
+  color: white;
+  box-shadow: var(--box-shadow);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.photo:hover {
+  transform: scale(125%);
+}
+
+.photo img {
+  max-width: 100%;
+}
+
 footer {
   margin: 20px 0;
 }
@@ -205,6 +243,27 @@ footer .simple-footer {
     font-size: 10px;
   }
 
+  .cv h3,
+  .cv h4 {
+    text-align: start;
+  }
+
+  .cv h5 {
+    font-size: 14px;
+  }
+
+  .cv h6 {
+    font-size: 12px;
+  }
+
+  .cv-skills p {
+    font-size: 8px;
+  }
+
+  .cv-work p {
+    font-size: 14px;
+  }
+
   footer .social-links a {
     padding: 8px 13px;
     font-size: 16px;
@@ -255,6 +314,21 @@ footer .simple-footer {
 
   .project-description p {
     font-size: 14px;
+  }
+
+  .cv,
+  .cv h3,
+  .cv h4 {
+    text-align: center;
+  }
+
+  .cv-content {
+    justify-content: center;
+  }
+
+  .cv-work p {
+    font-size: 14px;
+    text-align: start;
   }
 
   footer .contact-box {
