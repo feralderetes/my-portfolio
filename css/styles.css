@@ -271,6 +271,11 @@ footer .simple-footer {
     font-size: 14px;
   }
 
+  .cv-languages p,
+  .cv-languages .col-sm-9 p {
+    text-align: start;
+  }
+
   footer .social-links a {
     padding: 8px 13px;
     font-size: 16px;
@@ -358,5 +363,10 @@ footer .simple-footer {
 @media (max-width: 575px) {
   .about-image {
     border-radius: 50%;
+  }
+
+  .cv-languages p,
+  .cv-languages .col-sm-9 p {
+    text-align: center;
   }
 }
